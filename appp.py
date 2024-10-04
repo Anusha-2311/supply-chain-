@@ -18,7 +18,7 @@ with p2:
 st.write("This app is built on the below features to estimate Order Priority.")
 
 # Loading the dataset (just for display purposes)
-userinpdata = pd.read_excel(r"C:\Users\mekal\Supply_Chain_FinalData.xlsx")
+userinpdata = pd.read_excel(r"C:\Users\vuggu\Desktop\Supply_Chain_FinalData.xlsx")
 st.dataframe(userinpdata.head(5))
 
 st.subheader("Enter Product Details to Estimate Order Priority:")
